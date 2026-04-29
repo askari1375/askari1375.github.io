@@ -1,189 +1,213 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Amirhossein Askari Farsangi
+  label: AI Engineer and ML Researcher
+  email: a.h.askarifarsangi@gmail.com
+  location: Zurich, Switzerland
+  image: /assets/img/personal_photo.png
+  summary: AI engineer and ML researcher focused on LLM systems, generative AI, trustworthy machine learning, computer vision, backend architecture, and research engineering.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: askari1375
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: amirhossein-askari
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
+      - company: Klynt AG
+        position: AI Engineer
         location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2025
+        end_date: present
+        summary: Building an AI copilot platform for M&A advisory workflows, with emphasis on document understanding, RAG, knowledge graphs, agentic workflows, and modular backend services.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed and implemented RAG pipelines for document-level reasoning and question answering.
+          - Worked on hybrid retrieval architectures combining vector search, Qdrant, knowledge graph construction, and Cypher-style querying.
+          - Built LangGraph-based agentic workflows with fan-out, merge, dynamic routing, subgraphs, and Langfuse observability.
+          - Contributed to FastAPI-based backend architecture, async job tracking, reusable service abstractions, Docker workflows, and CI pipelines.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Disney Research Studios Zurich
+        position: ML Researcher Intern
+        location: Zurich, Switzerland
+        start_date: 2024-10
+        end_date: 2025-10
+        summary: Worked on diffusion models and trustworthy generative AI across synthetic pretraining, large-scale data preparation, and semantic watermarking robustness.
+        highlights:
+          - Contributed to synthetic and semi-synthetic pretraining research for diffusion models and representation learning.
+          - Co-authored work on stylized structural patterns for improved neural network pretraining.
+          - Built and evaluated reproducible diffusion experiments using metrics such as FID, KID, DINO/ViT features, and attention-map similarity.
+          - Worked on data preparation pipelines for training a large image generation model, including image quality assessment and training-readiness checks.
+          - Developed ideas and experiments around semantic watermarking, localized diffusion edits, robustness benchmarking, and watermark removal attacks.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: AI Startup in Healthcare (Risklick)
+        position: Data Scientist Intern
+        location: Bern, Switzerland
+        start_date: 2024-03
+        end_date: 2024-10
+        summary: Built LLM-based document understanding workflows and production software features for clinical-trial and medical document analysis.
+        highlights:
+          - Built RAG pipelines with evidence-backed responses and source-document references to reduce hallucination risk.
+          - Designed a cost-aware LLM feature for checking conflicts between related documents.
+          - Developed a high-accuracy HTML track-changes algorithm using tree/graph representations and structured edit operations.
+          - Transitioned into the software engineering team and shipped production features using Next.js, React, TypeScript, FastAPI, Prisma, and PostgreSQL.
+
+      - company: VITA Lab, EPFL
+        position: Research Assistant
+        location: Lausanne, Switzerland
+        start_date: 2023-07
+        end_date: 2023-12
+        summary: Worked on certified robustness for human trajectory prediction, resulting in a CVPR 2025 paper.
+        highlights:
+          - Contributed to a certification framework for trajectory prediction using randomized smoothing.
+          - Helped integrate a diffusion-based denoiser to improve certified bounds while preserving accuracy.
+          - Contributed to certified metrics including Certified-ADE, Certified-FDE, Certified Collision Rate, ABD, and FBD.
+          - Evaluated robustness across trajectory prediction models and Trajnet++ benchmarks.
+
+      - company: CREATE Lab, EPFL
+        position: Visiting Student Intern
+        location: Lausanne, Switzerland
+        start_date: 2021-07
+        end_date: 2021-09
+        summary: Worked on machine learning and sensing projects for soft robotics under data-limited and noisy real-world conditions.
+        highlights:
+          - Built a synchronized data collection pipeline pairing sensor glove readings with MediaPipe hand-pose ground truth.
+          - Proposed and implemented a paired-camera strategy for soft-robot trunk shape estimation under limited labeled data.
+          - Explored simulation-based pretraining and autoencoder-style models for cross-view prediction.
+
+    Education:
+      - institution: Sharif University of Technology
+        location: Tehran, Iran
+        area: Computer Engineering
+        studyType: M.Sc.
+        start_date: 2019
+        end_date: 2022
+        score: 17.13 / 20
+        highlights:
+          - Minor in bioinformatics.
+          - Thesis: Cancer Detection and Classification in Histopathology Images.
+          - Focused on biomedical image analysis, machine learning for bioinformatics, CNNs, LSTMs, interpretability, and cross-domain generalization.
+
+      - institution: Sharif University of Technology
+        location: Tehran, Iran
+        area: Computer Science
+        studyType: B.Sc.
+        start_date: 2014
+        end_date: 2019
+        score: 17.78 / 20
+        highlights:
+          - Completed as part of a selective double-degree path.
+          - Built foundations in algorithms, data structures, linear algebra, probability, optimization, theoretical computer science, and computer vision.
+
+      - institution: Sharif University of Technology
+        location: Tehran, Iran
+        area: Aerospace Engineering
+        studyType: B.Sc.
+        start_date: 2014
+        end_date: 2019
+        highlights:
+          - Developed engineering intuition, system-level thinking, dynamics, control, finite element methods, and vibrations.
+          - Led the structural subsystem in a National CubeSat Competition team that won first place in conceptual and primary design phases.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Certified Human Trajectory Prediction
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Mohammadhossein Bahari
+          - Saeed Saadatnejad
+          - Amirhossein Askari Farsangi
+          - Seyed-Mohsen Moosavi-Dezfooli
+          - Alexandre Alahi
+        publisher: Proceedings of the Computer Vision and Pattern Recognition Conference
+        releaseDate: 2025
+        url: https://openaccess.thecvf.com/content/CVPR2025/html/Bahari_Certified_Human_Trajectory_Prediction_CVPR_2025_paper.html
+        summary: Introduces certified robustness methods and metrics for human trajectory prediction.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Stylized Structural Patterns for Improved Neural Network Pre-training
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Farnood Salehi
+          - Tunc Ozan Aydin
+          - Amirhossein Askari Farsangi
+          - Vandit Sharma
+        publisher: arXiv preprint arXiv:2506.19465
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2506.19465
+        summary: Studies synthetic and reverse-stylized structural patterns for neural network pretraining.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Novel Pipeline for Diagnosing Acute Lymphoblastic Leukemia Sensitive to Related Biomarkers
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Amirhossein Askari-Farsangi
+          - Ali Sharifi-Zarchi
+          - Mohammad Hossein Rohban
+        publisher: arXiv preprint arXiv:2307.04014
+        releaseDate: 2023
+        url: https://arxiv.org/abs/2307.04014
+        summary: Presents a multiple-instance learning pipeline for ALL diagnosis from blood smear images.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: QGraph
+        summary: Production-oriented personal AI engineering project for structured text analysis, combining Django/DRF, Next.js, search workflows, segmentation, retrieval, and planned knowledge-graph reasoning.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Django backend with accounts, canonical text data, segmentation, and search domains.
+          - Versioned segmentation model with provenance, ownership, transactional activation, and database constraints.
+          - Next.js frontend with typed API integration, CSRF/JWT handling, polling flows, RTL support, and tests.
+          - Production-readiness work including Docker, Gunicorn, Nginx, systemd assets, Sentry, request-ID logging, and documentation.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Machine Learning and Computer Vision
+        keywords:
+          - Diffusion Models
+          - Stable Diffusion
+          - SDXL
+          - Vision Transformers
+          - DINO
+          - SAM
+          - Grounding DINO
+          - image editing and inversion
+          - robustness and adversarial ML
+          - biomedical image analysis
+      - name: Large Language Models
+        keywords:
+          - LangChain
+          - LangGraph
+          - Langfuse
+          - OpenAI APIs
+          - Hugging Face Transformers
+          - RAG
+          - prompt engineering
+          - multimodal LLMs
+          - document chatbots
+      - name: Software Development and Systems
+        keywords:
+          - Python
+          - C++
+          - TypeScript
+          - JavaScript
+          - Java
+          - Django
+          - Django REST Framework
+          - FastAPI
+          - Next.js
+          - React
+          - PostgreSQL
+          - MySQL
+          - Prisma
+          - Docker
+          - Celery
+          - Redis
+          - REST APIs
+          - GitLab CI/CD
+          - GitHub Actions
+          - Linux
+      - name: Mathematics and Algorithms
+        keywords:
+          - probability and statistics
+          - linear algebra
+          - optimization
+          - data structures
+          - algorithms
+          - algorithmic problem solving
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Awards:
+      - title: Top 1% in Master's Program National Entrance Exam
+        date: ""
+        awarder: Computer Engineering National Entrance Exam
+        summary: Ranked in the top 1% among more than 3000 participants.
