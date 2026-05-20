@@ -17,9 +17,9 @@ cv:
       - company: Klynt AG
         position: AI Engineer
         location: Zurich, Switzerland
-        start_date: 2025
-        end_date: present
-        summary: Building an AI copilot platform for M&A advisory workflows, with emphasis on document understanding, RAG, knowledge graphs, agentic workflows, and modular backend services.
+        start_date: 2026-02
+        end_date: 2026-05
+        summary: Worked on an AI copilot platform for M&A advisory workflows, with emphasis on document understanding, RAG, knowledge graphs, agentic workflows, and modular backend services.
         highlights:
           - Designed and implemented RAG pipelines for document-level reasoning and question answering.
           - Worked on hybrid retrieval architectures combining vector search, Qdrant, knowledge graph construction, and Cypher-style querying.

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Engineer at Klynt AG. ML researcher and research engineer in Zurich.
+subtitle: AI engineer and ML researcher in Zurich.
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI engineer at Klynt AG in Zurich, where I work on AI systems for M&A advisory workflows: retrieval-augmented generation, knowledge graph construction, agentic workflows, and modular backend services for document-heavy reasoning.
+I am an AI engineer and ML researcher in Zurich. Most recently, I worked at Klynt AG on AI systems for M&A advisory workflows: retrieval-augmented generation, knowledge graph construction, agentic workflows, and modular backend services for document-heavy reasoning.
 
 My recent work sits between machine learning research and production engineering. At Disney Research Studios Zurich, I worked on diffusion models, synthetic and semi-synthetic pretraining, scalable data preparation pipelines for image generation, and semantic watermarking robustness. At EPFL's VITA Lab, I contributed to certified robustness for human trajectory prediction, which led to a CVPR 2025 paper.
 
