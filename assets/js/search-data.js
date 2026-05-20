@@ -30,14 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-started-as-an-ai-engineer-at-klynt-ag-working-on-llm-systems-rag-knowledge-graphs-and-ai-backends-for-m-amp-amp-a-advisory-workflows",
-          title: 'Started as an AI Engineer at Klynt AG, working on LLM systems, RAG,...',
-          description: "",
-          section: "News",},{id: "news-our-paper-certified-human-trajectory-prediction-appeared-at-cvpr-2025",
+        },{id: "news-our-paper-certified-human-trajectory-prediction-appeared-at-cvpr-2025",
           title: 'Our paper Certified Human Trajectory Prediction appeared at CVPR 2025.',
           description: "",
           section: "News",},{id: "news-our-paper-stylized-structural-patterns-for-improved-neural-network-pre-training-is-available-on-arxiv",
           title: 'Our paper Stylized Structural Patterns for Improved Neural Network Pre-training is available on...',
+          description: "",
+          section: "News",},{id: "news-completed-my-ai-engineer-role-at-klynt-ag-where-i-worked-on-llm-systems-rag-knowledge-graphs-and-ai-backends-for-m-amp-amp-a-advisory-workflows",
+          title: 'Completed my AI Engineer role at Klynt AG, where I worked on LLM...',
           description: "",
           section: "News",},{id: "projects-all-diagnosis-pipeline",
           title: 'ALL Diagnosis Pipeline',
