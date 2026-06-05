@@ -8,7 +8,7 @@ nav: false
 
 QGraph is a personal AI engineering project where I explore how modern AI systems can support deep analysis of structured text. The initial domain is Quranic studies, but the broader goal is to build a production-grade, domain-specific text-analysis platform combining search, segmentation, retrieval, and AI-assisted reasoning.
 
-I approached QGraph as a full system rather than a small prototype. It is a controlled environment for designing an AI-driven product end to end: backend architecture, frontend UX, authentication, deployment, and integration with a modular AI service.
+The live project is available at [qgraph.org](https://qgraph.org/). I approached it as a full system rather than a small prototype: backend architecture, frontend UX, authentication, deployment, and integration points for a modular AI service.
 
 ## System Structure
 
@@ -16,9 +16,9 @@ QGraph is organized around three components:
 
 - **Django backend:** canonical data layer, API contracts, authentication, segmentation models, search orchestration, and persistence.
 - **Next.js frontend:** user-facing application for reading, segmentation exploration, search workflows, authentication, and account management.
-- **AI backend:** planned FastAPI service for retrieval, RAG, and knowledge-graph-based reasoning.
+- **AI backend:** FastAPI service direction for retrieval, RAG, and knowledge-graph-based reasoning experiments.
 
-The backend and frontend are close to initial deployment. The AI service is designed but intentionally not fully implemented yet, so the current system is best described as a production-oriented AI system foundation rather than a fully launched AI product.
+The current public application is a deployed foundation for the product direction. It is useful as a structured text-analysis tool today, while the deeper AI layer remains an active area of design and experimentation.
 
 ## Backend Design
 
@@ -53,6 +53,8 @@ The Next.js frontend focuses on making backend and future AI capabilities usable
 - Domain-specific UX work including bilingual English/Persian considerations, RTL support, typography, and segmentation visualization.
 - Tests with Vitest, Playwright, and MSW-based API mocking.
 
-## Takeaways
+## Code And Takeaways
+
+Some parts of the code are available from my [GitHub profile](https://github.com/askari1375), while the live site remains the best entry point for trying the project.
 
 QGraph demonstrates my current backend and AI-systems engineering direction: clean domain boundaries, versioned data models, async workflows, observable AI execution, authentication and security design, deployment awareness, and user-facing product thinking.

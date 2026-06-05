@@ -1,6 +1,8 @@
 ---
 layout: post
+title: Stylized Structural Patterns On arXiv
 date: 2025-06-25
+permalink: /news/stylized-structural-patterns-arxiv/
 inline: true
 related_posts: false
 ---

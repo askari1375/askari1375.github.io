@@ -1,11 +1,11 @@
 ---
 layout: page
 title: QGraph
-description: Production-oriented AI text-analysis platform with Django, Next.js, segmentation, search, and planned RAG/KG reasoning.
+description: Personal AI engineering project for structured text analysis, live at qgraph.org.
 img:
 importance: 1
 category: systems
 redirect: /qgraph/
 ---
 
-QGraph is a personal AI engineering project for structured text analysis. See the dedicated [QGraph page](/qgraph/) for details.
+QGraph is a personal AI engineering project for structured text analysis. Try the live site at [qgraph.org](https://qgraph.org/) or see the dedicated [QGraph page](/qgraph/) for details.

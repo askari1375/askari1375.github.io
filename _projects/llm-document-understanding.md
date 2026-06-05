@@ -7,8 +7,10 @@ importance: 5
 category: systems
 ---
 
-Across startup roles, I have worked on LLM-based document understanding systems for expert-facing workflows.
+Across startup roles, I have worked on LLM systems for expert workflows over long, high-context documents.
 
-The common theme is reliability: retrieval-augmented generation, source-backed answers, prompt and system design to reduce hallucinations, cost-aware routing, and interfaces that let users validate answers against the underlying documents. In healthcare, this included clinical-trial and medical-document analysis. At Klynt, this included M&A advisory workflows with RAG, knowledge graphs, and modular AI services.
+The important problem was not only answering a question, but showing where the answer came from. My work included retrieval-augmented generation, source-backed responses, prompt and system design, cost-aware routing, and interfaces that let users compare model outputs against the underlying documents.
+
+In healthcare, this involved clinical-trial and medical-document analysis. In a Zurich startup setting, it involved M&A advisory workflows with retrieval, knowledge graphs, agentic workflows, and modular backend services.
 
 Because this work is mostly under NDA, this page intentionally stays at the architecture and responsibility level.

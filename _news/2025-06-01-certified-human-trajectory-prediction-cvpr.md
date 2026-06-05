@@ -1,6 +1,8 @@
 ---
 layout: post
+title: Certified Human Trajectory Prediction At CVPR 2025
 date: 2025-06-01
+permalink: /news/certified-human-trajectory-prediction-cvpr-2025/
 inline: true
 related_posts: false
 ---

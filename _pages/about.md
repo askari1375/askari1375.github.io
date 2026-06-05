@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI engineer and ML researcher in Zurich.
+subtitle: AI systems, generative models, and research engineering.
 
 profile:
   align: right
@@ -26,12 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI engineer and ML researcher in Zurich. Most recently, I worked at Klynt AG on AI systems for M&A advisory workflows: retrieval-augmented generation, knowledge graph construction, agentic workflows, and modular backend services for document-heavy reasoning.
+I build machine-learning systems where research ideas have to become reliable software. My recent work has been in Zurich, around generative models, LLM applications, and backend systems for document-heavy workflows.
 
-My recent work sits between machine learning research and production engineering. At Disney Research Studios Zurich, I worked on diffusion models, synthetic and semi-synthetic pretraining, scalable data preparation pipelines for image generation, and semantic watermarking robustness. At EPFL's VITA Lab, I contributed to certified robustness for human trajectory prediction, which led to a CVPR 2025 paper.
+At Disney Research Studios Zurich, I worked on diffusion models, synthetic and semi-synthetic pretraining, data preparation for image generation, and semantic watermarking robustness. At EPFL's VITA Lab, I contributed to certified robustness for human trajectory prediction, which led to a CVPR 2025 paper.
 
-I care about AI systems that are reliable enough to be useful: grounded LLM applications, controllable agent workflows, robust generative models, reproducible experiments, and backend architectures that make complex AI behavior observable and testable.
+On the engineering side, I have built LLM document-understanding systems for startup and healthcare settings. The work has mostly been about retrieval, evidence-backed answers, knowledge-graph workflows, and services that make model behavior easier to inspect.
 
-Due to NDA constraints, much of my recent Disney Research and startup work cannot be published. My GitHub profile mostly reflects older or personal projects, so this site highlights selected research, systems work, and public artifacts more directly.
+Some recent Disney Research and startup work is under NDA, so this site focuses on public research, selected systems work, and artifacts that I can share directly.
 
-For a larger personal engineering project, see [QGraph](/qgraph/), a production-oriented AI text-analysis platform I am building to explore segmentation, search, retrieval, and AI-assisted reasoning over structured text.
+For a concrete personal project, see [QGraph](https://qgraph.org/), a personal AI engineering project for structured text analysis. The [project note](/qgraph/) explains the architecture and what I used it to explore.
