@@ -30,14 +30,24 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "news-our-paper-certified-human-trajectory-prediction-appeared-at-cvpr-2025",
           title: 'Our paper Certified Human Trajectory Prediction appeared at CVPR 2025.',
           description: "",
           section: "News",},{id: "news-our-paper-stylized-structural-patterns-for-improved-neural-network-pre-training-is-available-on-arxiv",
           title: 'Our paper Stylized Structural Patterns for Improved Neural Network Pre-training is available on...',
           description: "",
-          section: "News",},{id: "news-completed-my-ai-engineer-role-at-klynt-ag-where-i-worked-on-llm-systems-rag-knowledge-graphs-and-ai-backends-for-m-amp-amp-a-advisory-workflows",
-          title: 'Completed my AI Engineer role at Klynt AG, where I worked on LLM...',
+          section: "News",},{id: "news-completed-my-ai-engineer-role-at-a-zurich-startup-where-i-worked-on-llm-systems-rag-knowledge-graphs-and-ai-backends-for-m-amp-amp-a-advisory-workflows",
+          title: 'Completed my AI Engineer role at a Zurich startup, where I worked on...',
+          description: "",
+          section: "News",},{id: "news-i-will-start-a-research-internship-at-disney-research-zurich",
+          title: 'I will start a research internship at Disney Research Zurich.',
           description: "",
           section: "News",},{id: "projects-all-diagnosis-pipeline",
           title: 'ALL Diagnosis Pipeline',
@@ -56,7 +66,7 @@ ninja.data = [{
               window.location.href = "/projects/llm-document-understanding/";
             },},{id: "projects-qgraph",
           title: 'QGraph',
-          description: "Production-oriented AI text-analysis platform with Django, Next.js, segmentation, search, and planned RAG/KG reasoning.",
+          description: "Personal AI engineering project for structured text analysis, live at qgraph.org.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/qgraph/";
             },},{id: "projects-stylized-structural-patterns",
